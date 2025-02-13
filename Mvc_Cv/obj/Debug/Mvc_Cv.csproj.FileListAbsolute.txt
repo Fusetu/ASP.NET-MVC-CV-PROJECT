@@ -59,3 +59,7 @@ C:\Users\stunc\Desktop\MvcCV\ASP.NET-MVC-CV-PROJECT\Mvc_Cv\obj\Debug\Mvc_Cv.cspr
 C:\Users\stunc\Desktop\MvcCV\ASP.NET-MVC-CV-PROJECT\Mvc_Cv\obj\Debug\Mvc_Cv.csproj.Up2Date
 C:\Users\stunc\Desktop\MvcCV\ASP.NET-MVC-CV-PROJECT\Mvc_Cv\obj\Debug\Mvc_Cv.dll
 C:\Users\stunc\Desktop\MvcCV\ASP.NET-MVC-CV-PROJECT\Mvc_Cv\obj\Debug\Mvc_Cv.pdb
+C:\Users\stunc\Desktop\MvcCV\ASP.NET-MVC-CV-PROJECT\Mvc_Cv\bin\EntityFramework.dll
+C:\Users\stunc\Desktop\MvcCV\ASP.NET-MVC-CV-PROJECT\Mvc_Cv\bin\EntityFramework.SqlServer.dll
+C:\Users\stunc\Desktop\MvcCV\ASP.NET-MVC-CV-PROJECT\Mvc_Cv\bin\EntityFramework.xml
+C:\Users\stunc\Desktop\MvcCV\ASP.NET-MVC-CV-PROJECT\Mvc_Cv\bin\EntityFramework.SqlServer.xml

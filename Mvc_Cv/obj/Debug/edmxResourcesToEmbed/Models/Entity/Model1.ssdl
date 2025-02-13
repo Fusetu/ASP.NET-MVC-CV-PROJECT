@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_CvModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="about">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="adress" Type="nvarchar" MaxLength="100" />
+    <Property Name="phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="picture" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userName" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_Cv.dbo.certificates' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="certificates">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="communication">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="full_Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="subject" Type="nvarchar" MaxLength="100" />
+    <Property Name="message" Type="nvarchar" MaxLength="1000" />
+    <Property Name="date" Type="date" />
+  </EntityType>
+  <EntityType Name="educations">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="nvarchar" MaxLength="100" />
+    <Property Name="subtitle_1" Type="nvarchar" MaxLength="100" />
+    <Property Name="subtitle_2" Type="nvarchar" MaxLength="100" />
+    <Property Name="score" Type="nvarchar" MaxLength="10" />
+    <Property Name="date" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_Cv.dbo.experinces' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="experinces">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="nvarchar" MaxLength="100" />
+    <Property Name="subtitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="date" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_Cv.dbo.hobbies' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="hobbies">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="description1" Type="nvarchar" MaxLength="500" />
+    <Property Name="description2" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_Cv.dbo.talents' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="talents">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="talent" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="db_CvModelStoreContainer">
+    <EntitySet Name="about" EntityType="Self.about" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="admin" EntityType="Self.admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="communication" EntityType="Self.communication" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="educations" EntityType="Self.educations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="certificates" EntityType="Self.certificates" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [certificates].[ID] AS [ID], 
+    [certificates].[description] AS [description]
+    FROM [dbo].[certificates] AS [certificates]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="experinces" EntityType="Self.experinces" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [experinces].[ID] AS [ID], 
+    [experinces].[title] AS [title], 
+    [experinces].[subtitle] AS [subtitle], 
+    [experinces].[description] AS [description], 
+    [experinces].[date] AS [date]
+    FROM [dbo].[experinces] AS [experinces]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="hobbies" EntityType="Self.hobbies" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [hobbies].[ID] AS [ID], 
+    [hobbies].[description1] AS [description1], 
+    [hobbies].[description2] AS [description2]
+    FROM [dbo].[hobbies] AS [hobbies]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="talents" EntityType="Self.talents" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [talents].[ID] AS [ID], 
+    [talents].[talent] AS [talent]
+    FROM [dbo].[talents] AS [talents]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

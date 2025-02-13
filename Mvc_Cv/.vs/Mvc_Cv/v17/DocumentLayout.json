@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|c:\\users\\stunc\\desktop\\mvccv\\asp.net-mvc-cv-project\\mvc_cv\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|solutionrelative:views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|solutionrelative:views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|c:\\users\\stunc\\desktop\\mvccv\\asp.net-mvc-cv-project\\mvc_cv\\views\\home\\test1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|solutionrelative:views\\home\\test1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|c:\\users\\stunc\\desktop\\mvccv\\asp.net-mvc-cv-project\\mvc_cv\\views\\default\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|solutionrelative:views\\default\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|c:\\users\\stunc\\desktop\\mvccv\\asp.net-mvc-cv-project\\mvc_cv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|c:\\users\\stunc\\desktop\\mvccv\\asp.net-mvc-cv-project\\mvc_cv\\views\\default\\experince.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|solutionrelative:views\\default\\experince.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|c:\\users\\stunc\\desktop\\mvccv\\asp.net-mvc-cv-project\\mvc_cv\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|c:\\users\\stunc\\desktop\\mvccv\\asp.net-mvc-cv-project\\mvc_cv\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2719139-0A0F-4D7E-BCC1-3FA68455F0E6}|Mvc_Cv.csproj|solutionrelative:controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Test1.cshtml",
-              "DocumentMoniker": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Home\\Test1.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Test1.cshtml",
-              "ToolTip": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Home\\Test1.cshtml",
-              "RelativeToolTip": "Views\\Home\\Test1.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T18:47:19.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Test.cshtml",
-              "DocumentMoniker": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Home\\Test.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Test.cshtml",
-              "ToolTip": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Home\\Test.cshtml",
-              "RelativeToolTip": "Views\\Home\\Test.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T18:43:41.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA1wCIAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T18:42:54.001Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Education.cshtml",
+              "DocumentMoniker": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Default\\Education.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\Education.cshtml",
+              "ToolTip": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Default\\Education.cshtml",
+              "RelativeToolTip": "Views\\Default\\Education.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T18:14:58.226Z",
+              "WhenOpened": "2025-02-04T07:40:44.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Experince.cshtml",
+              "DocumentMoniker": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Default\\Experince.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\Experince.cshtml",
+              "ToolTip": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Default\\Experince.cshtml",
+              "RelativeToolTip": "Views\\Default\\Experince.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T06:57:02.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAADIAAAAAAAAAAAAnwEYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-30T11:58:16.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "Views\\Default\\Index.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAE8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T07:34:21.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\stunc\\Desktop\\MvcCV\\ASP.NET-MVC-CV-PROJECT\\Mvc_Cv\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "Controllers\\DefaultController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T07:34:04.683Z",
               "EditorCaption": ""
             }
           ]
